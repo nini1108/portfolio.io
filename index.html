@@ -21,6 +21,9 @@
   <!-- Main Stylesheet File -->
   <link href="css/style.css" rel="stylesheet">
 
+  <!-- Javascript File -->
+  <script src="js/search.js"></script>
+
 </head>
 
 <body data-spy="scroll" data-offset="0" data-target="#gn-menu">
@@ -32,10 +35,6 @@
         <nav class="gn-menu-wrapper">
           <div class="gn-scroller">
             <ul class="gn-menu">
-              <li class="gn-search-item">
-                <input placeholder="Search" type="search" class="gn-search">
-                <a class="gn-icon gn-icon-search"><span>Search</span></a>
-              </li>
               <li><a href="#home" class="gn-icon gn-icon-home smoothscroll">Home</a></li>
               <li><a href="#about" class="gn-icon gn-icon-archive smoothscroll">About</a></li>
               <li><a href="#portfolio" class="gn-icon gn-icon-pictures smoothscroll">Portfolio</a></li>
@@ -135,7 +134,7 @@
   <section id="portfolio" name="portfolio"></section>
   <div id="foliowrap">
     <div class="container">
-      <h3>I Create Cool Stuff</h3>
+      <h3>I Create Cool Websites</h3>
       <br>
       <br>
       <div class="row">
@@ -146,7 +145,7 @@
             <figure>
               <img class="img-responsive" src="img/portfolio/folio01.jpg" alt="">
               <figcaption>
-                <h5>Dog Project 1</h5>
+                <h5>Barber Shop Website</h5>
                 <a data-toggle="modal" href="#myModal" class="btn btn-primary btn-lg">Take a Look</a>
               </figcaption>
               <!-- /figcaption -->
@@ -164,11 +163,11 @@
             <div class="modal-content">
               <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                <h4 class="modal-title">Project Title</h4>
+                <h4 class="modal-title">Harbour Barber Website</h4>
               </div>
               <div class="modal-body">
                 <p><img class="img-responsive" src="img/portfolio/folio01.jpg" alt=""></p>
-                <p>This project was crafted for Some Name corp. Detail here a little about your job requirements and the tools used. Tell about the challenges faced and what you and your team did to solve it.</p>
+                <p>This project was crafted for Barber shop use. Technologies used to create the project includes Responsive Layout, HTML, CSS, SCSS, Logo Design.</p>
                 <p><b><a href="#">Visit Site</a></b></p>
               </div>
               <div class="modal-footer">
@@ -452,7 +451,7 @@
         <h3>Drop Me A Line</h3>
         <br>
 
-        <form class="contact-form php-mail-form" role="form" action="contactform/contactform.php" method="POST">
+        <form class="contact-form" role="form" action="contactform/contactform.php" method="POST">
 
           <div class="form-group">
             <label for="contact-name">Your Name</label>
@@ -476,8 +475,8 @@
             <div class="validate"></div>
           </div>
 
-          <div class="loading"></div>
-          <div class="error-message"></div>
+          <!-- <div class="loading"></div>
+          <div class="error-message"></div> -->
           <div class="sent-message">Your message has been sent. Thank you!</div>
 
           <div class="form-send">
